@@ -19,7 +19,11 @@
     height: 41px;
     border-radius: 6px;
 }
-
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 112px;
+}
 .button1:hover{
     color: white;
     border: none;
@@ -93,25 +97,93 @@
     color: white;
     transition: 0.3s ease-in-out;   
 }
-.boxs h3{
+.boxs1 h3{
     font-size: 32px;
+    margin: 0;
 }
 a{
     text-decoration: none;
 }
-#a1 h3::after{
+#a1 span::after{
     content: url(./img1.png)
 }
-#a2 h3::after{
+#a2 span::after{
     content: url(./img2.png)
 }
-#a3 h3::after{
+#a3 span::after{
     content: url(./img3.png)
 }
-#a4 h3::after{
+#a4 span::after{
     content: url(./img4.png)
 }
-#a5 h3::after{
+#a5 span::after{
     content: url(./img5.png)
-    
+}
+.boxs1{
+    display: flex;
+    justify-content: space-between;
+    align-content:center;
+}
+.big3{
+    display: block;
+    background-color: white;
+}
+.container{
+    text-align: center;
+}
+.container h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+.container p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #636F87;
+}
+.section2{
+    margin: 0px 112px;
+}
+.Wrapper{
+    background-image: url(./image\ 1.png);
+    width: 1216px;
+    height: 515px;
+    padding: 1px;
+    text-align: center;
+    margin: 30px;
+}
+.feedback{
+    width:  565px;
+    height: 200px;
+    display: block; 
+    opacity: 50%;
+    background-color: black;
+    color: white;
+    margin: 70px 314px;
+    padding: 30px 34px 120px 34px;
+}
+.feedback label{
+    font-size: 20px;
+    font-weight: 700;
+}
+.feedback input{
+    background: none;
+    width: 450px;
+    height: 45px;
+    color: white;
+}
+.feedback button{
+    width: 217px;
+    height: 59px;
+    background-color: #1AAB7B;
+    color: white;
+    border-radius: 6px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 100%;
+    height: 278px;
+    align-items: center;
 }
